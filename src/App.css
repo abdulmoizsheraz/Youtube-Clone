@@ -1,0 +1,109 @@
+.App {
+  text-align: center;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.video-size{
+  height: 150px;
+}
+
+.fa-youtube{
+  font-weight: 400;
+  color: red;
+  font-size: 40px;
+  margin-left: 60px;
+}
+.me-2 {
+  margin-right: 0.5rem!important;
+  width: 438px;
+  border-radius: 12xpx;
+  height: 30px;
+}
+.textbox-button-container {
+  display: flex;
+  align-items: center;
+  margin-right: 340px;
+}
+.textbox {
+  flex: 1 1;
+    padding: 10px;
+    border-radius: 5px 0 0 5px;
+    width: 317px;
+    height: 30px;
+    border-right: none;
+    background-color: black;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: white;
+}
+.button {
+  padding:2px 12px;
+  background-color: black;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: white;
+  border-radius: 0 5px 5px 0;
+  height: 30px;
+  cursor: pointer;
+  border-left: none;
+}
+/* Feed */
+.feed-parent{
+  display: flex;
+  
+}
+.feed{
+  height: 110vh;
+  width: 18vw;
+color: white;
+overflow-y: scroll;
+}
+::-webkit-scrollbar {
+border-radius: 1.2rem;
+  width: 0.4rem;
+  height: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+border-radius: 1.2rem;
+background-color: rgb(161, 156, 156);
+}
+.btn-hover-map:hover{
+  background-color: red !important;
+  color: white !important;
+}
+
+
+
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
